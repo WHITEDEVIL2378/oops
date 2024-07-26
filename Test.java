@@ -19,7 +19,10 @@ class Student
 	{
 		return rollno;
 	}
-	Student e = new Student();
+	public void student()
+	{
+		Student e = new Student();
+	}
 }
 public class Test
 { 
