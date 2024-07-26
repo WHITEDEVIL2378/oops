@@ -1,11 +1,11 @@
 class Student
 {
-	private String name = "hari";
-	private static int rollno;
+	private String name ;
+	private int rollno;
 
-	public void setName(String nam)
+	public void setName(String name)
 	{
-		name = nam;
+		name = name;
 	}
 	public String getName()
 	{
@@ -15,7 +15,7 @@ class Student
 	{
 		rollno = roll;
 	}
-	public static int getRollno()
+	public int getRollno()
 	{
 		return rollno;
 	}
@@ -25,8 +25,8 @@ public class Test
 	public static void main(String args[])
 	{
 		Student s = new Student();
-		//s.setName("hari");
+		s.setName("hari");
 		s.setRollno(1223);
-		System.out.println(s.getName() + " " + Student.getRollno());
+		System.out.println(s.getName() + " " + s.getRollno());
 	}
 }
