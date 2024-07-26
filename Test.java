@@ -5,7 +5,7 @@ class Student
 
 	public void setName(String name)
 	{
-		name = name;
+		e.name = name;
 	}
 	public String getName()
 	{
@@ -13,12 +13,13 @@ class Student
 	}
 	public void setRollno(int roll)
 	{
-		rollno = roll;
+		e.rollno = roll;
 	}
 	public int getRollno()
 	{
 		return rollno;
 	}
+	Student e = new Student();
 }
 public class Test
 { 
@@ -28,5 +29,7 @@ public class Test
 		s.setName("hari");
 		s.setRollno(1223);
 		System.out.println(s.getName() + " " + s.getRollno());
+		//System.out.println(this.name);
 	}
 }
+
