@@ -18,11 +18,9 @@ class Student
 	public int getRollno()
 	{
 		return rollno;
-	}
-	public void student()
-	{
+	}	
+	
 		Student e = new Student();
-	}
 }
 public class Test
 { 
